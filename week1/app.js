@@ -30,7 +30,7 @@
 //         this.age = age
 
 //     }
-// }
+// }app.js
 
 // const person = new People("ovie","software Engineer", 12)
 // const person1 = new People("joy", "stylist", 20);
