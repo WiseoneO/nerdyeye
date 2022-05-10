@@ -81,4 +81,4 @@ const direct = __dirname
 const fileName = __filename
 
 console.log(direct)
-console.log(fileName)
+// console.log(fileName)
