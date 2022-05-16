@@ -1,0 +1,15 @@
+// HTTP METHODS
+//GET
+//POST
+//PUT
+//DELETE
+
+//INTRODUCTION TO MONGODB
+//MONGOSE SCHEMA
+//CRUD OPERATION
+//MVC DESIGN PATTERN
+
+//BSON=>mongobd stores data in BSON format
+// a document based databse
+//DOCUMENTS ==>COLLECTION =>DATABASE => CLUSTER
+//total size is 16mb
