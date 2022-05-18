@@ -2,8 +2,7 @@ const express = require("express");
 const connectDB = require("./config/config")
 const dotenv = require("dotenv");
 dotenv.config();
-// importing the routes
-const productRouter = require("./src/routes/productRouter");
+
 // firing express
 const app = express();
 
@@ -17,10 +16,13 @@ app.get("/", (req, res, next)=>{
         message: "Welcome to my crud api"
     })
 })
-
+// importing the routes
+const productRouter = require("./src/routes/productRouter");
+const userRouter = require("./src/routes/userRouter");
 
 // firing the route
 app.use("/api", productRouter);
+app.use("/api/user", userRouter)
 
 
 
